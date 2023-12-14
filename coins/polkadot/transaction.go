@@ -64,31 +64,6 @@ func (t *UnSignedTx) ToBytesString() string {
 	payload = append(payload, t.TxVersion...)
 	payload = append(payload, t.GenesisHash...)
 	payload = append(payload, t.BlockHash...)
-
-	fmt.Print("Method: ")
-	fmt.Println(hex.EncodeToString(t.Method))
-
-	fmt.Print("Era: ")
-	fmt.Println(hex.EncodeToString(t.Era))
-
-	fmt.Print("Nonce: ")
-	fmt.Println(hex.EncodeToString(t.Nonce))
-
-	fmt.Print("Tip: ")
-	fmt.Println(hex.EncodeToString(t.Tip))
-
-	fmt.Print("SpecVersion: ")
-	fmt.Println(hex.EncodeToString(t.SpecVersion))
-
-	fmt.Print("TxVersion: ")
-	fmt.Println(hex.EncodeToString(t.TxVersion))
-
-	fmt.Print("GenesisHash: ")
-	fmt.Println(hex.EncodeToString(t.GenesisHash))
-
-	fmt.Print("BlockHash: ")
-	fmt.Println(hex.EncodeToString(t.BlockHash))
-
 	return hex.EncodeToString(payload)
 }
 
