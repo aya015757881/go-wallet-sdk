@@ -18,20 +18,6 @@ func address() {
 }
 
 func tx() {
-	// "module_method": "0500",
-	// "version": "84",
-	// "from": "5GgTpADDzFUTBtjY6KcHHJ1mwVsFQbE38WWjc5TmaYY5b7zF",
-	// "to": "5DoW9HHuqSfpf55Ux5pLdJbHFWvbngeg8Ynhub9DrdtxmZeV",
-	// "amount": 50000000000000,
-	// "nonce": 0,
-	// "tip": 1000000000000,
-	// "block_height": 8117556,
-	// "block_hash": "d268b9ef1c92dbaf68bd850ef65b3ea2764b9dabc41980c56d440848288f536c",
-	// "genesis_hash": "e3777fa922cafbff200cadeaea1a76bd7898ad5b89f7848999058b50e715f636",
-	// "spec_version": 104000,
-	// "tx_version": 24,
-	// "era_height": 0
-
 	tx := polkadot.TxStruct{
 		From:         "5E99A91wzW6rBio1eE6vxtqn2j2pCoGazGwxM1FTEbCEMQRX",
 		To:           "5DoW9HHuqSfpf55Ux5pLdJbHFWvbngeg8Ynhub9DrdtxmZeV",
