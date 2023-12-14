@@ -1,0 +1,34 @@
+go 1.18
+
+use (
+	./coins/aptos
+	./coins/avax
+	./coins/aya
+	./coins/bitcoin
+	./coins/cosmos
+	./coins/elrond
+	./coins/eos
+	./coins/ethereum
+	./coins/filecoin
+	./coins/flow
+	./coins/harmony
+	./coins/helium
+	./coins/kaspa
+	./coins/near
+	./coins/nervos
+	./coins/oasis
+	./coins/polkadot
+	./coins/solana
+	./coins/stacks
+	./coins/starknet
+	./coins/sui
+	./coins/tezos
+	./coins/tron
+	./coins/waves
+	./coins/zil
+	./coins/zkspace
+	./coins/zksync
+	./crypto
+	./util
+	./
+)
